@@ -219,8 +219,8 @@ char* Message[] = {"This is string 1",
 WiFiClient client;
 
 // Setup Supla connection
-const char* ssid     = "R@F";
-const char* password = "kermnitowec2279";
+const char* ssid     = "SSID";
+const char* password = "pass";
 
 char str[10];
 char StatCommStr[25];
@@ -352,9 +352,9 @@ void setup() {
 
   SuplaDevice.begin(GUID,              // Global Unique Identifier
                     mac,               // Ethernet MAC address
-                    "svr5.supla.org",  // SUPLA server address
-                    894,                 // Location ID
-                    "b150");               // Location Password
+                    "svrx.supla.org",  // SUPLA server address
+                    1111,                 // Location ID
+                    "xxx");               // Location Password
 
 }
 
