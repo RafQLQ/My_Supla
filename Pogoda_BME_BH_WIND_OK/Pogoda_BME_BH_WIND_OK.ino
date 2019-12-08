@@ -60,8 +60,8 @@ float voltage;
 
   
 // Setup Supla connection
-const char* ssid     = "R@F";
-const char* password = "kermnitowec2279";
+const char* ssid     = "YOU_SSID";
+const char* password = "WIFI_PASS";
 
 //***************************************************************************************
 double get_pressure(int channelNumber, double pressure) {
@@ -174,9 +174,9 @@ void setup() {
   
   SuplaDevice.begin(GUID,              // Global Unique Identifier 
                     mac,               // Ethernet MAC address
-                    "svr5.supla.org",  // SUPLA server address
-                    894,                 // Location ID 
-                    "b150");               // Location Password
+                    "svrX.supla.org",  // SUPLA server address
+                    444,                 // Location ID  expl: 678
+                    "CLOUD_PASS");               // Location Password  expl: h789
 
 }
 //***************************************************************************************
